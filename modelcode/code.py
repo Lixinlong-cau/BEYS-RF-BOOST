@@ -12,8 +12,10 @@ plt.rcParams['font.family'] = ['Times New Roman']
 # 1. 直接读取训练集和测试集文件
 X_train_path = 'X_train1.xlsx'
 y_train_path = 'Y_train_YD.xlsx'
+#y_train_path = 'Y_train_WUE.xlsx' #与YD分别运行，运行时注释另一个即可
 X_test_path = 'X_test1.xlsx'
 y_test_path = 'Y_test_YD.xlsx'
+#y_test_path = 'Y_test_WUE.xlsx' #与YD分别运行，运行时注释另一个即可
 
 try:
     # 读取训练集
